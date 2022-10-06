@@ -1,0 +1,2 @@
+(this["webpackJsonpevenda-react"]=this["webpackJsonpevenda-react"]||[]).push([[1],{45:function(e,t,c){"use strict";c.r(t);var n=c(11),i=c(1);t.default=function(e){return Object(i.jsxs)("div",{children:[Object(i.jsx)("div",{children:Object(i.jsx)("h2",{children:Object(n.b)("MetaTitle",e.metaTitle)})}),Object(i.jsx)("div",{children:Object(i.jsx)("h2",{children:Object(n.b)("TeaserRatio",e.teaserRatio)})}),Object(i.jsx)("h2",{children:Object(n.b)("MainBody",e.mainBody)}),Object(n.b)("BottomContentArea",e.bottomContentArea)]})}}}]);
+//# sourceMappingURL=1.chunk.js.map?v=e2eef4a6
