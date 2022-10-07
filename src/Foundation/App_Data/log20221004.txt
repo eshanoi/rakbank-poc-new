@@ -1,0 +1,807 @@
+2022-10-04 09:37:54.110 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:37:54.140 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:38:02.753 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:38:07.763 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'Comment' or its base type.
+2022-10-04 09:38:07.787 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'CollectionSettings' or its base type.
+2022-10-04 09:38:07.790 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'LabelSettings' or its base type.
+2022-10-04 09:38:07.793 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'LayoutSettings' or its base type.
+2022-10-04 09:38:07.796 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'ReferencePageSettings' or its base type.
+2022-10-04 09:38:07.799 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'ScriptInjectionSettings' or its base type.
+2022-10-04 09:38:07.802 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'SearchSettings' or its base type.
+2022-10-04 09:38:08.036 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'StandardCategory' or its base type.
+2022-10-04 09:38:08.135 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'CategoryRoot' or its base type.
+2022-10-04 09:38:08.460 +07:00 [WRN] Value cannot be null. Parameter name: contentType.Base. Implement IContentTypeBaseProvider and provide a ContentTypeBase for the content type 'RootContent' or its base type.
+2022-10-04 09:38:16.692 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.692 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.696 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.696 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.774 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.774 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.778 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.778 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.782 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.782 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.855 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.855 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.861 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.861 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.866 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.866 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.872 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.872 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.876 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.876 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.880 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.880 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.885 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.885 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.888 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.888 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.891 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.891 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.894 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.894 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.899 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.899 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.902 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.902 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.906 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.906 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.913 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.913 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.915 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:16.915 +07:00 [WRN] Cache cleared
+2022-10-04 09:38:24.826 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:38:48.293 +07:00 [ERR] An error occurred while polling cache validity.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'Microsoft.Extensions.Caching.Memory.MemoryCache'.
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.<CheckDisposed>g__Throw|31_0()
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at EPiServer.Framework.Cache.Internal.MemoryObjectInstanceCache.Get(String key)
+   at EPiServer.Marketing.Testing.Core.Manager.RemoteCacheSignal.IsCacheInvalid()
+   at EPiServer.Marketing.Testing.Core.Manager.RemoteCacheSignal.PollValidity(Object state)
+2022-10-04 09:38:49.822 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:38:49.853 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:38:51.749 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:38:59.565 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:39:00.787 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 14_14] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:00.788 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 14_14] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.195 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 15_15] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.195 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 15_15] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.256 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 16_16] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.256 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 16_16] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.405 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 17_18] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.406 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 17_18] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.513 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 18_20] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.513 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 18_20] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.592 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 19_22] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.593 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 19_22] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.712 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 20_24] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.712 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 20_24] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.795 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 21_26] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.795 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 21_26] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:01.878 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 22_28] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:01.878 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 22_28] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.053 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 23_30] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.053 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 23_30] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.137 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 24_32] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.137 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 24_32] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.229 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 25_34] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.229 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 25_34] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.309 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 26_36] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.309 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 26_36] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.408 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 27_38] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.408 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 27_38] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.499 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 28_40] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.499 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 28_40] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.583 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 29_42] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.583 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 29_42] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.666 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 30_44] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.666 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 30_44] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.747 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 31_46] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.747 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 31_46] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:02.882 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 32_48] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:02.882 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 32_48] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.004 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 33_50] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.004 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 33_50] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.291 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 34_52] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.291 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 34_52] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.436 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 35_54] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.436 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 35_54] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.504 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 36_56] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.504 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 36_56] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.575 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 37_58] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.575 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 37_58] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.639 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 38_60] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.639 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 38_60] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.709 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 39_62] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.709 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 39_62] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.773 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 40_64] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.773 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 40_64] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.847 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 41_66] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.847 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 41_66] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:03.926 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 42_68] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:03.926 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 42_68] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.005 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 43_70] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.005 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 43_70] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.191 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 44_72] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.191 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 44_72] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.367 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 45_74] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.367 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 45_74] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.433 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 46_76] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.433 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 46_76] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.506 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 47_78] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.506 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 47_78] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.576 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 48_80] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.576 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 48_80] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.641 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 49_82] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.641 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 49_82] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.704 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 50_84] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.704 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 50_84] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.777 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 51_86] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.777 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 51_86] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.843 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 52_88] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.843 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 52_88] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:04.907 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 53_90] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:04.907 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 53_90] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.050 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 54_92] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.050 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 54_92] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.356 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 55_94] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.356 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 55_94] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.561 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 56_96] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.561 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 56_96] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.713 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 57_98] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.713 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 57_98] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.777 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 58_100] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.777 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 58_100] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.847 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 59_102] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.847 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 59_102] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:05.932 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 60_104] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:05.932 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 60_104] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.000 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 61_106] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.001 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 61_106] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.091 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 62_108] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.091 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 62_108] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.163 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 63_110] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.163 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 63_110] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.251 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 64_112] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.251 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 64_112] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.334 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 65_114] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.334 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 65_114] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.409 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 66_116] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.409 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 66_116] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.609 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 67_118] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.609 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 67_118] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.684 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 68_120] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.684 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 68_120] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.860 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 69_122] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.860 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 69_122] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:06.932 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 70_124] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:06.932 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 70_124] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.007 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 71_126] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.007 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 71_126] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.080 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 72_128] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.080 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 72_128] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.152 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 73_130] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.152 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 73_130] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.249 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 74_132] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.249 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 74_132] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.333 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 75_134] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.333 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 75_134] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.407 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 76_136] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.407 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 76_136] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.490 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 77_138] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.490 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 77_138] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.587 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 78_140] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.588 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 78_140] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.724 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 79_142] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.724 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 79_142] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:07.805 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 80_144] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:07.805 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 80_144] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.014 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 81_146] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.014 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 81_146] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.094 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 82_148] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.094 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 82_148] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.328 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 83_150] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.328 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 83_150] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.530 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 84_152] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.530 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 84_152] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.598 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 85_154] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.598 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 85_154] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.679 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 86_156] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.679 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 86_156] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.717 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 87_157] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.717 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 87_157] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.764 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 88_158] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.764 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 88_158] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.815 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 89_159] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.815 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 89_159] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.873 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 90_160] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.873 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 90_160] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.954 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 92_162] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.954 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 92_162] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:08.998 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 93_163] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:08.998 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 93_163] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.052 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 94_164] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.052 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 94_164] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.117 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 96_166] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.117 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 96_166] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.223 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 97_167] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.223 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 97_167] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.339 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 98_168] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.339 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 98_168] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.444 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 99_169] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.444 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 99_169] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.534 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 100_170] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.534 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 100_170] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.716 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 101_171] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.716 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 101_171] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:09.934 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 102_172] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:09.934 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 102_172] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.040 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 103_173] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.040 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 103_173] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.218 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 104_174] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.218 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 104_174] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.374 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 105_175] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.374 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 105_175] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.441 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 106_176] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.441 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 106_176] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.514 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 107_177] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.514 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 107_177] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.595 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 108_178] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.595 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 108_178] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.677 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 109_179] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.677 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 109_179] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.752 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 110_180] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.752 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 110_180] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.853 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 111_181] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.853 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 111_181] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:10.994 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 112_182] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:10.995 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 112_182] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.165 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 113_183] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.165 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 113_183] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.240 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 114_184] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.240 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 114_184] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.302 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 115_185] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.302 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 115_185] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.378 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 116_186] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.378 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 116_186] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.445 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 117_187] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.445 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 117_187] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.601 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 118_188] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.601 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 118_188] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.681 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 119_189] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.681 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 119_189] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.779 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 120_190] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.779 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 120_190] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.873 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 122_192] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.873 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 122_192] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:11.949 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 123_193] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:11.949 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 123_193] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.049 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 124_194] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.049 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 124_194] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.094 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 125_195] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.094 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 125_195] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.142 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 126_196] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.142 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 126_196] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.186 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 127_197] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.186 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 127_197] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.246 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 128_198] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.246 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 128_198] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.298 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 129_199] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.298 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 129_199] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.346 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 130_200] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.346 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 130_200] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.385 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 131_201] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.385 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 131_201] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.512 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 133_203] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.512 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 133_203] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.551 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 134_204] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.551 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 134_204] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.599 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 135_205] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.599 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 135_205] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.647 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 136_206] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.647 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 136_206] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.703 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 137_207] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.703 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 137_207] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.769 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 138_208] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.769 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 138_208] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:12.948 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 139_209] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:12.949 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 139_209] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.027 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 140_210] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.027 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 140_210] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.073 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 141_211] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.073 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 141_211] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.124 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 142_212] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.124 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 142_212] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.176 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 143_213] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.176 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 143_213] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.251 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 145_215] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.251 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 145_215] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.296 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 146_216] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.296 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 146_216] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.333 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 147_217] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.333 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 147_217] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.388 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 148_218] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.388 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 148_218] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.388 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 148_218] Property 'Comments' does not exist on destination content type
+2022-10-04 09:39:13.439 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 149_219] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.439 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 149_219] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.503 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 151_221] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.504 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 151_221] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.545 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 152_222] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.545 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 152_222] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.671 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 153_223] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.671 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 153_223] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.735 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 154_224] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.735 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 154_224] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.807 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 155_225] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.807 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 155_225] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.840 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 156_226] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.840 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 156_226] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.876 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 157_227] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.876 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 157_227] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.913 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 158_228] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.913 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 158_228] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:13.963 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 159_229] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:13.963 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 159_229] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.029 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 160_230] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.029 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 160_230] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.089 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 161_231] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.089 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 161_231] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.143 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 162_232] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.143 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 162_232] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.209 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 163_233] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.209 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 163_233] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.280 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 164_234] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.280 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 164_234] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.340 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 165_235] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.340 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 165_235] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.413 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 166_236] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.413 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 166_236] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.496 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 167_237] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.496 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 167_237] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.566 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 168_238] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.566 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 168_238] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.632 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 169_239] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.632 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 169_239] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.704 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 170_240] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.704 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 170_240] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:14.766 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 171_241] Property 'ScriptFiles' does not exist on destination content type
+2022-10-04 09:39:14.766 +07:00 [WRN] 10.5.2 Export/import warning: [Importing content 171_241] Property 'Scripts' does not exist on destination content type
+2022-10-04 09:39:28.945 +07:00 [WRN] Cache cleared (remote only)
+2022-10-04 09:39:42.081 +07:00 [WRN] Cache cleared (remote only)
+2022-10-04 09:39:51.112 +07:00 [WRN] Indexing failed (http error), attempt 1 out of 3: EPiServer.Find.ServiceException: No such host is known. (changeme:80)
+ ---> System.Net.WebException: No such host is known. (changeme:80)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (changeme:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at EPiServer.Find.Connection.JsonRequest.GetResponseStream()
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   --- End of inner exception stack trace ---
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute(IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute()
+   at EPiServer.Find.Client.IndexDirectly(IEnumerable objectsToIndex, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+   at EPiServer.Find.Cms.ContentIndexer.IndexWithRetry(IContent[] contents, Int32 maxRetries, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+2022-10-04 09:39:53.391 +07:00 [WRN] Indexing failed (http error), attempt 2 out of 3: EPiServer.Find.ServiceException: No such host is known. (changeme:80)
+ ---> System.Net.WebException: No such host is known. (changeme:80)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (changeme:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at EPiServer.Find.Connection.JsonRequest.GetResponseStream()
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   --- End of inner exception stack trace ---
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute(IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute()
+   at EPiServer.Find.Client.IndexDirectly(IEnumerable objectsToIndex, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+   at EPiServer.Find.Cms.ContentIndexer.IndexWithRetry(IContent[] contents, Int32 maxRetries, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+2022-10-04 09:39:55.682 +07:00 [WRN] Indexing failed (http error), attempt 3 out of 3: EPiServer.Find.ServiceException: No such host is known. (changeme:80)
+ ---> System.Net.WebException: No such host is known. (changeme:80)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (changeme:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at EPiServer.Find.Connection.JsonRequest.GetResponseStream()
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   --- End of inner exception stack trace ---
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute(IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute()
+   at EPiServer.Find.Client.IndexDirectly(IEnumerable objectsToIndex, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+   at EPiServer.Find.Cms.ContentIndexer.IndexWithRetry(IContent[] contents, Int32 maxRetries, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+2022-10-04 09:39:55.692 +07:00 [ERR] An exception occurred while indexing (IContent). No such host is known. (changeme:80).
+EPiServer.Find.ServiceException: No such host is known. (changeme:80)
+ ---> System.Net.WebException: No such host is known. (changeme:80)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (changeme:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at EPiServer.Find.Connection.JsonRequest.GetResponseStream()
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   --- End of inner exception stack trace ---
+   at EPiServer.Find.Api.Command.GetResponse[TResult](IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute(IJsonRequest request)
+   at EPiServer.Find.Api.CommandBase`3.Execute()
+   at EPiServer.Find.Client.IndexDirectly(IEnumerable objectsToIndex, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+   at EPiServer.Find.Cms.ContentIndexer.IndexWithRetry(IContent[] contents, Int32 maxRetries, Boolean deleteLanguageRoutingDuplicatesOnIndex)
+   at EPiServer.Find.Cms.ContentIndexer.Index(IEnumerable`1 contents, IndexOptions options)
+   at EPiServer.Find.Cms.ContentEventIndexer.Index(IEnumerable`1 contentLinks)
+   at EPiServer.Find.Cms.ContentEventIndexer.Sync(IEnumerable`1 contentToIndex, HashSet`1 contentToIndexSet, Func`1 index)
+   at EPiServer.Find.Cms.ContentEventIndexer.IndexPageQueue(IEnumerable`1 contentToIndex)
+   at EPiServer.Find.Cms.ContentEventIndexer.IndexPageQueue()
+2022-10-04 09:44:41.380 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:44:41.400 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:44:42.212 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:44:44.156 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:44:48.336 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:44:48.349 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:45:27.100 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:45:27.120 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:45:27.946 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:45:29.548 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:45:33.655 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:45:33.665 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:46:00.877 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:46:00.899 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:46:01.819 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:46:03.512 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:46:07.851 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:46:07.861 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:47:06.971 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:47:07.000 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:47:08.074 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:47:09.789 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:47:13.776 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:47:13.784 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:48:13.583 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:48:13.601 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:48:14.348 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:48:16.008 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:48:19.975 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:48:19.984 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:53:44.828 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:53:44.847 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:53:45.879 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:53:47.640 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:53:51.795 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:53:51.808 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:55:34.213 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:55:34.235 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:55:34.950 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:55:36.492 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:55:40.417 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:55:40.425 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:57:39.074 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:57:39.091 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:57:39.665 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:57:40.775 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:57:44.513 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:57:44.520 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:58:20.528 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:58:20.545 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 09:58:21.185 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 09:58:22.370 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 09:58:26.048 +07:00 [ERR] BackgroundService failed
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 09:58:26.053 +07:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+MoveNext()
+   at System.Threading.Channels.ChannelReader`1.ReadAllAsync(CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Geta.NotFoundHandler.Optimizely.Core.AutomaticRedirects.MovedContentRegistratorBackgroundService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2022-10-04 10:09:06.702 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:09:06.737 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:09:08.381 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:09:12.409 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:09:27.053 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Features/Shared/Views/_MasterLayout.cshtml': 'AdditionalStyles'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Mediachase.Commerce.Anonymous.Internal.AnonymousIdMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-10-04 10:09:56.355 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:11:57.705 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:11:57.744 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:11:59.751 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:12:04.080 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:13:18.860 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:13:18.905 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:13:21.252 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:13:25.399 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:14:05.146 +07:00 [WRN] Invalid password for user.
+2022-10-04 10:14:05.149 +07:00 [WRN] User failed to provide the correct password.
+2022-10-04 10:14:52.831 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:14:54.453 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:22:53.708 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:22:53.751 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:22:56.368 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:23:00.982 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:23:24.977 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:23:26.463 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:30:29.397 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:30:29.457 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:30:32.214 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:30:35.922 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:31:22.239 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:31:23.784 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:32:00.158 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:51:43.127 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:51:43.171 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 10:51:45.973 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:51:51.656 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 10:54:31.434 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 10:54:35.746 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 11:02:00.636 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 13:46:22.686 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 13:46:22.725 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 13:46:25.439 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 13:46:29.763 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 13:46:53.021 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 13:56:27.849 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 13:56:27.879 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 13:56:30.040 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 13:56:33.742 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 14:02:01.002 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 14:09:50.640 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 14:09:50.677 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 14:09:53.707 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 14:09:59.767 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 14:32:00.614 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 23:25:59.866 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 23:26:00.650 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 23:50:01.656 +07:00 [WRN] No store type was specified for the decimal property 'ConvertedTotal' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 23:50:01.681 +07:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DalKeyFinancialResult'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-04 23:50:03.572 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 23:50:06.826 +07:00 [WRN] The Find indexing job is unfinished. We might get unexpected exception.
+2022-10-04 23:50:32.335 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2022-10-04 23:50:32.909 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
