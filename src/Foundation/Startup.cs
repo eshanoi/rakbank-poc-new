@@ -238,16 +238,13 @@ namespace Foundation
             // Add A/B Testing Gadget
             // https://github.com/episerver/content-ab-testing
             services.AddABTesting(_configuration.GetConnectionString("EPiServerDB"));
-            var existedsConverter = services.FirstOfType<DefaultContentConverter>();
+            
             var existed = services.FirstOrDefault(m => typeof(DefaultContentConverter).IsAssignableFrom(m.ServiceType));
             if (existed != null)
             {
                 services.Remove(existed);
-
             }
-            var existedsConverter1 = services.FirstOfType<DefaultContentConverter>();
             services.AddSingleton<DefaultContentConverter, CustomDefaultContentConverter>();
-            var existedsConverte2 = services.FirstOfType<DefaultContentConverter>();
 
         }
 
