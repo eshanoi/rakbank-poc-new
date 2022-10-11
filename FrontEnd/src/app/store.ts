@@ -4,11 +4,8 @@ import {
     ThunkAction,
 } from '@reduxjs/toolkit';
 
-import contentApiSlice from '../blocks/ContainerBlock/contentarea-slice';
-
 export const store = configureStore({
     reducer: {
-        contentBlock: contentApiSlice,
     },
 });
 

@@ -1,0 +1,1 @@
+ReactDOM.ReactDOM(<HeroBlock />, document.getElementById('root'));

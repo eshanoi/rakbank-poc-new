@@ -3,8 +3,10 @@ using EPiServer.ContentApi.Core.Serialization.Models;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.ServiceLocation;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Foundation.CustomContentDelivery
 {
@@ -51,6 +53,13 @@ namespace Foundation.CustomContentDelivery
         {
             ContentType contentTypeById = ServiceLocator.Current.GetInstance<IContentTypeRepository>().Load(contentTypeId);
             return contentTypeById;
+        }
+
+        public static bool ContentApiIsEditingActive()
+        {
+            var httpContextAccessor = ServiceLocator.Current.GetInstance<IHttpContextAccessor>();
+            string str = httpContextAccessor?.HttpContext?.Request?.Query["epieditmode"].FirstOrDefault<string>();
+            return str?.Equals("true", StringComparison.OrdinalIgnoreCase) == true;
         }
     }
 }

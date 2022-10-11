@@ -6,7 +6,8 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 
 import { store } from './app/store';
-import CommonRootComponent from './common-root-component';
+import BootstrapComponent
+    from './utils/component-extensions/bootstrap-component';
 
 window.isEditMode = true;
 window.root = [];
@@ -17,7 +18,7 @@ const root = createRoot(container!); // createRoot(container!) if you use TypeSc
 
 const component = (
     <Provider store={store}>
-        <CommonRootComponent />
+        <BootstrapComponent />
     </Provider>
 
 );

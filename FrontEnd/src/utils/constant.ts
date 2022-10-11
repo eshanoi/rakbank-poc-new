@@ -1,6 +1,6 @@
 import { Root } from 'react-dom/client';
 
-import { ComponentParseModel } from './componentRegister';
+import { ComponentParseModel } from './component-extensions/componentRegister';
 
 declare global {
     interface Window {
