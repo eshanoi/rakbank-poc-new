@@ -20,8 +20,9 @@ function refactorAndCopyToRootWeb(isJsfile) {
             if (mainFiles) {
                 for (const mainFile of mainFiles) {
                     const fileName = mainFile.split(`.${extension}`)[0];
-                    console.log(`${path}\\main.${extension}`, `${path}\\${mainFile}`);
-                    fs.rename(`${path}\\${mainFile}`, `${path}\\${mainFile.replace(fileName, 'main')}`)
+                    const newFileName = mainFile.replace(fileName, 'main');
+                    console.log(`${mainFile} renamed to ${newFileName}`);
+                    fs.rename(`${path}\\${mainFile}`, `${path}\\${newFileName}`)
                 }
 
             }

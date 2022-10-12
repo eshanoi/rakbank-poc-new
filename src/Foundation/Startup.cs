@@ -150,6 +150,7 @@ namespace Foundation
 
             services.AddNotFoundHandler(o => o.UseSqlServer(_configuration.GetConnectionString("EPiServerDB")), policy => policy.RequireRole(Roles.CmsAdmins));
             services.AddOptimizelyNotFoundHandler();
+
             services.Configure<ProtectedModuleOptions>(x =>
             {
                 if (!x.Items.Any(x => x.Name.Equals("foundation")))

@@ -1,9 +1,12 @@
 ﻿using EPiServer.Core;
 using EPiServer.ServiceLocation;
+using EPiServer.Shell.Web.Mvc.Html;
 using EPiServer.Web;
 using Foundation.Features.Preview;
 using Foundation.Features.Shared;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System;
@@ -19,13 +22,16 @@ namespace Foundation.CustomContentDelivery
 
         private static IContextModeResolver _contextModeResolver =
             ServiceLocator.Current.GetInstance<IContextModeResolver>();
+
         private static IWebHostEnvironment _webHostEnvironment =
             ServiceLocator.Current.GetInstance<IWebHostEnvironment>();
+
         static FEExtension()
         {
             _buildFilePath = $@"{_webHostEnvironment.WebRootPath}\\{_reactAssetFolderName}\\{_buildFile}";
             FEBuildTime = GetFEBuildTime();
         }
+
         public static string GetBuildVersion()
         {
             return typeof(FEExtension).Assembly.ImageRuntimeVersion;
@@ -54,11 +60,7 @@ namespace Foundation.CustomContentDelivery
                     ? previewModel.PreviewContent
                     : contentViewModel.CurrentContent;
                 var contentLinkId = contentDisplay.ContentLink.ToString();
-                var config = new
-                {
-                    contentLinkId = contentLinkId,
-                    isInEditMode = isInEditMode
-                };
+                var config = new {contentLinkId = contentLinkId, isInEditMode = isInEditMode};
                 return JsonConvert.SerializeObject(config);
             }
             catch (Exception e)
@@ -68,6 +70,16 @@ namespace Foundation.CustomContentDelivery
             }
 
         }
+
+        //public static HtmlString RenderRequiredContentDeliveryReact(this HtmlHelper helper, IContentViewModel<IContent> contentViewModel)
+        //{
+        //    var script = helper.Tag("script", "");
+        //    var content = new HtmlContentBuilder();
+        //    content.Append(@$"window['contentDeliveryReact'] = JSON.parse(`{helper.Raw(FEExtension.GetReactAdditionalData(contentViewModel))}`);");
+        //    script.InnerHtml.AppendHtml(content);
+        //    var result = new HtmlString();
+        //    return script;
+        //}
 
 
         private static string GetFEBuildTime()
