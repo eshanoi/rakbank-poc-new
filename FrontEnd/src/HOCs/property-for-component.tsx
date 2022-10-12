@@ -3,10 +3,10 @@ import { PropertyData } from '../models/property-data-model';
 import {
     renderComponentData,
     renderContentArea,
-} from '../utils/component-renderer';
+} from '../utils/component-extensions/component-renderer';
 
 export default function PropertyFor(keyName: string, property: PropertyData) {
-    if (!keyName || !property) {
+    if (!keyName) {
         return (<></>)
     }
     const isInEditMode = window.isEditMode;
@@ -21,15 +21,15 @@ export default function PropertyFor(keyName: string, property: PropertyData) {
                 childrenElement = renderComponentData(propertyBlock);
                 break;
             case 'PropertyXhtmlString':
-                childrenElement = (<div dangerouslySetInnerHTML={{ __html: property.value }}></div>);
+                childrenElement = (<div dangerouslySetInnerHTML={{ __html: property?.value }}></div>);
                 break;
             default:
-                childrenElement = (<>{property.value}</>);
+                childrenElement = (<>{property?.value}</>);
         }
         return isInEditMode
             ? (<div className="epi-editContainer" data-epi-property-name={keyName} data-epi-use-mvc="True">{childrenElement}</div>)
             : childrenElement;
     }
-    return renderProperty(property.propertyDataType);
+    return renderProperty(property?.propertyDataType);
 }
 

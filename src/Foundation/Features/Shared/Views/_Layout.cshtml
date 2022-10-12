@@ -1,19 +1,14 @@
 @using EPiServer.Commerce.Catalog.ContentTypes
 @using EPiServer.Framework.Web.Mvc.Html
+@using Foundation.CustomContentDelivery
+@using Foundation.Features.Preview
+@using Microsoft.OData.Edm
 @model IContentViewModel<IContent>
 @inject Foundation.Features.Header.IHeaderViewModelFactory factory
 
 @{
     Layout = "~/Features/Shared/Views/_MasterLayout.cshtml";
 }
-
-@section AdditionalStyles {
-    @RenderSection("AdditionalStyles", required: false)
-}
-
-<div class="loading-box display-none">
-    <div class="loader"></div>
-</div>
 
 @await Html.RenderEPiServerQuickNavigatorAsync()
 
@@ -32,14 +27,19 @@ else
 
 <div class="container">
     @RenderBody()
-    <h2>Render By React</h2>
-    <div id="root"></div>
-    <script>
-    window.isInEditMode = @(Html.IsInEditMode() ? 1 : 0);
-    </script>
-    <script src="/static/js/runtime-main.js?v=b9fdb925"></script>
-    <script src="/static/js/2.chunk.js?v=1b8acd85"></script>
-    <script src="/static/js/main.chunk.js?v=95cc1cc2"></script>
+
+
+    @*react area*@
+    @section AdditionalStyles {
+        <link rel="stylesheet" href="@FEExtension.GetCssMainFile()" />
+    }
+        <div id="root"></div>
+        <script>
+            window["contentDeliveryReact"] = JSON.parse(`@Html.Raw(FEExtension.GetReactAdditionalData(Model))`);
+        </script>
+        <script src="@FEExtension.GetJsMainFile()" "></script>
+
+    @*end react area*@
 </div>
 
 @if (!foundationPageData?.HideSiteFooter ?? false)
@@ -51,11 +51,11 @@ else
 
 <script src="~/js/main.min.js"></script>
 
-@RenderSection("AdditionalScripts", required: false)
-@Html.RequiredClientResources("Footer")
-@Html.RenderFooterScripts(Model.CurrentContent)
-@if (Model.CurrentContent is EntryContentBase || Model.CurrentContent is CatalogContentBase)
-{
-    @Html.RenderFooterScriptsForCommerce(Model.CurrentContent)
-}
-@Model.SchemaMarkup
+        @RenderSection("AdditionalScripts", required: false)
+        @Html.RequiredClientResources("Footer")
+        @Html.RenderFooterScripts(Model.CurrentContent)
+        @if (Model.CurrentContent is EntryContentBase || Model.CurrentContent is CatalogContentBase)
+    {
+        @Html.RenderFooterScriptsForCommerce(Model.CurrentContent)
+    }
+    @Model.SchemaMarkup

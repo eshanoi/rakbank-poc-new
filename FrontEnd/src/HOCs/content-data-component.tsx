@@ -2,7 +2,9 @@ import {
     DisplayOption,
     IContentDataBase,
 } from '../models/base-common-model';
-import { renderComponentData } from '../utils/component-renderer';
+import {
+    renderComponentData,
+} from '../utils/component-extensions/component-renderer';
 
 export function PropertyForContentData(contentData: IContentDataBase, displayOption: DisplayOption | null = null) {
     const isInEditMode = window.isEditMode;
