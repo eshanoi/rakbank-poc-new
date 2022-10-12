@@ -51,8 +51,6 @@
     <div class="hero-block" style="@blockRatio">
         @if (Html.IsInEditMode())
         {
-            <h1>BackgroundColor</h1>
-            @Html.PropertyFor(m=>m.CurrentBlock.BackgroundColor);
             <div class="hero-block__image" @Html.EditAttributes(m => m.CurrentBlock.BackgroundImage)
                  style="background-image: url('@Url.ContentUrl(Model.CurrentBlock.BackgroundImage)')">
             </div>
